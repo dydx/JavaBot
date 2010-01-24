@@ -1,0 +1,31 @@
+# Circa September 2008
+
+So, I've been working a lot with Java lately, and I've managed to pull together an IRC Bot to use. 
+
+The usage is pretty easy:
+
+[quote]IRCBot/dist$ java -jar IRCBot.jar irc.server.com botName chatRoom botOwner[/quote]
+
+so if i were to run him in #enigmagroup on irc.snappeh.com..
+
+[quote]IRCBot/dist$ java -jar IRCBot.jar irc.snappeh.com JavaBot enigmagroup dydx[/quote]
+
+his commands:
+
+> !time  -- returns current date and time
+> !join <channel>  -- he leaves the current channel and joins the one you say to go to
+> !exit -- kinda obvious
+> !yell <user> -- he yells at the user you specify
+> !sayhi -- sort like a credits.
+
+He also responds to questions that contain "how do i", "why", "what", and any string ending with a "?". He's very rude... but you can change his list of responses by editing the source and recompiling him.
+
+He's very afraid of being stabbed, so if you mention stabbing he'll just about piss his pants
+
+He also doesnt take shit from anyone, so watch out.
+
+Easy as cake.
+
+He's MIT Licensed, so you're free to modify or use the code any way you want to. 
+
+This is still a work in progress, so i'll probably be releasing a few more updated versions later.
